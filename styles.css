@@ -1,0 +1,107 @@
+/*---------------------------------GENERAL---------------------------------*/
+
+* {
+    font-family: 'Crete Round', serif;
+}
+
+.name {
+    font-family: 'Calligraffitti', cursive;
+}
+
+ul
+{
+    list-style: none;
+    list-style-position: outside;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+
+
+/*---------------------------------HEADER---------------------------------*/
+
+header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+
+
+
+/*---------------------------------MAIN---------------------------------*/
+
+main{
+    height: 45rem;
+    background-image: url(images/moi.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+}
+
+.textCenter{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 80%;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #353535;
+}
+
+.slogan {
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+
+
+
+
+
+/*---------------------------------FOOTER---------------------------------*/
+
+footer {
+    height: 10rem;
+    background-color: #353535;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContent {
+    display: flex;
+    flex-flow: column;
+    color: #fff;
+    align-items: center;
+}
+
+.footerButton {
+    position: fixed;
+}
